@@ -1,7 +1,5 @@
 ﻿# SummerOfBitcoinPrep
 
-# SummerOfBitcoinPrep
-
 Overview :
 This Rust project implements a simple mining loop that mimics the core concept of Bitcoin's Proof-of-Work (PoW) mining using double SHA-256 hashing. Given a block header string and a difficulty target, the miner repeatedly increments a nonce and hashes the combined data until it finds a nonce such that the resulting hash is numerically less than the given target. This approximate simulation captures the fundamental mining process used in Bitcoin and other SHA-256 based cryptocurrencies.
 
@@ -47,3 +45,4 @@ It lacks network communication, transaction inclusion, dynamic difficulty adjust
 Mining performance here is single-threaded and simple, whereas real Bitcoin mining is optimized with specialized hardware (ASICs) and complex protocols.
 
 This implementation is perfect as a learning tool or simplified simulation, but far from a full Bitcoin node or miner.
+
