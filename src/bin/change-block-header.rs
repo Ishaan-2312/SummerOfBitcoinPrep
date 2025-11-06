@@ -44,7 +44,7 @@ fn block_hash(header : &BlockHeader) -> String {
     let first_hash = hasher.finalize_reset();
     hasher.update(&first_hash);
     let double_hash = hasher.finalize_reset();
-    format!("{:x}", double_hash);
+
      
     let hash_hex = hex::encode(&double_hash);
     hash_hex
