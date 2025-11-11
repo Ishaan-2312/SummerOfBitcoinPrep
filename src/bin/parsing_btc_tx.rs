@@ -18,7 +18,7 @@ fn main(){
         println!("  ScriptSig: {}", input.script_sig);
         println!("  Sequence: {}", input.sequence);
         println!("{:?}",input.witness);
-        // For SegWit, also print input.witness
+        
     }
 
     for (i, output) in tx.output.iter().enumerate() {
