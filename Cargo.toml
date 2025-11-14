@@ -7,4 +7,5 @@ edition = "2024"
 sha2 = "0.10"
 hex = "0.4"
 num-bigint = "0.4"
+bitcoin = "0.31"
 
